@@ -1,0 +1,10 @@
+.dockerignore
+.eslintrc.json
+.gitignore
+.vscode
+build
+Dockerfile
+LICENSE
+node_modules
+package-lock.json
+README.md

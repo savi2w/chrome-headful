@@ -1,0 +1,10 @@
+version: "3"
+services:
+  chrome-headful:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9000:8080"
+    privileged: true
+    user: savi2w
